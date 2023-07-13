@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* Font Family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Rollover Effect for Navigation Buttons */
+nav a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/* Float Property to Position an Element to the Side */
+.image-container {
+  float: right;
+  margin-left: 20px;
+}
+
+
+/* Absolute Positioning */
+.absolute-container {
+  position: relative;
+  height: 200px;
+}
+
+.absolute-content {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+
+/* Relative Positioning */
+.relative-container {
+  position: relative;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.relative-content {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+/* Move aside down */
+aside {
+  margin-top: 50px;
+}
+
+
+/* Element Selector */
+h2 {
+  color: green;
+  text-decoration: underline;
+}
+
+/* Class Selector */
+.highlight {
+  background-color: orange;
+  font-weight: bold;
+}
+
+/* ID Selector */
+#special-text {
+  font-size: 24px;
+  color: peru;
+  text-decoration: none;
+}
+
+.error {
+  color: orangered;
+}
+
+.form-group .error {
+  margin-top: 5px;
+}

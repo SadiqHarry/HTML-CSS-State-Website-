@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Discover North Carolina</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to North Carolina</h1>
+    <p>Explore the beauty and charm of the Tar Heel State.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="raleigh.html">Raleigh</a></li>
+      <li><a href="durham.html">Durham</a></li>
+      <li><a href="cary.html">Cary</a></li>
+      <li><a href="https://www.visitnc.com" target="_blank">Visit NC</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2> About North Carolina</h2>
+    <div class="image-container">
+      <img src="nc_image.jpg" alt="North Carolina" />
+    </div>
+    <p>North Carolina, located in the southeastern region of the United States, 
+      is a vibrant state known for its diverse landscapes, rich history, 
+      and thriving culture. With a population of over 10 million residents, 
+      North Carolina offers a unique blend of bustling cities and picturesque rural areas. 
+      The state is renowned for its stunning coastline along the Atlantic Ocean, 
+      featuring beautiful beaches and charming coastal towns. 
+      Inland, North Carolina boasts breathtaking mountain ranges, including the iconic Blue Ridge Mountains, 
+      offering outdoor enthusiasts endless opportunities for hiking, camping, and scenic drives. 
+      Beyond its natural beauty, North Carolina is home to a wide range of industries, including technology, 
+      research, agriculture, and manufacturing, making it a hub for innovation and economic growth. 
+      The state's vibrant arts scene, renowned universities, and passionate sports 
+      culture contribute to its dynamic and welcoming atmosphere, ensuring there's 
+      something for everyone in the Tar Heel State.
+    </p>
+    <p>
+      North Carolina's rich history is evident in its numerous historic sites and landmarks. 
+      From the Wright Brothers' first flight in Kitty Hawk to the influential Civil Rights Movement 
+      at Greensboro's Woolworth's lunch counter, the state has played a significant role in shaping American 
+      history. The state also takes pride in its cultural heritage, with a strong emphasis on traditional music, 
+      arts, and crafts. North Carolina is famous for its distinctive style of bluegrass and old-time music, 
+      which can be enjoyed at lively festivals and intimate venues throughout the state. Additionally, 
+      the state's cuisine showcases a delicious fusion of Southern flavors and local ingredients, 
+      with renowned dishes like barbecue, fried chicken, and fresh seafood.
+    </p>
+
+    <p class="highlight">More Info</p>
+
+ <!-- Absolute Positioning -->
+ <div class="absolute-container">
+  <div class="absolute-content">
+    <h3>Upcoming Events</h3>
+        <ul>
+          <li>Summer Music Festival - July 15-18</li>
+          <li>Annual Food Truck Fair - August 5</li>
+          <li>Fall Harvest Festival - October 12-14</li>
+        </ul>
+  </div>
+</div>
+
+<!-- Relative Positioning -->
+<div class="relative-container">
+  <div class="relative-content">
+    <h3>Local Cuisine</h3>
+        <p>North Carolina offers a rich culinary experience with its unique local cuisine:</p>
+        <ul>
+          <li>North Carolina BBQ - Enjoy the smoky and tangy flavors of Carolina-style barbecue.</li>
+          <li>Shrimp and Grits - Indulge in this classic Southern dish made with fresh shrimp and creamy grits.</li>
+          <li>Cheerwine - Sip on the iconic cherry-flavored soft drink that originated in North Carolina.</li>
+        </ul>
+  </div>
+  </div>
+  </section>
+
+  <aside>
+    <h3 id="special-text">Quick Facts</h3>
+    <ul>
+      <li>Population: 10.6 million</li>
+      <li>Year Founded: 1789</li>
+      <li>Region: Southeast</li>
+      <li>Classification: Urban, suburban, rural</li>
+      <li>Average Income Level: Varies across the state</li>
+    </ul>
+  </aside>
+
+  <section>
+    <h3 id="special-text"> Local Sports Teams</h3>
+    <ol>
+      <li>Carolina Panthers (NFL)</li>
+      <li>Charlotte Hornets (NBA)</li>
+      <li>Carolina Hurricanes (NHL)</li>
+    </ol>
+  </section>
+
+</section>
+<h3 id="special-text"> Interesting Facts</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Key Attractions</th>
+      <th>State Symbols</th>
+      <th>Historical Events</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Biltmore Estate</td>
+      <td>State Bird - Northern Cardinal</td>
+      <td>Wright Brothers' First Flight (1903)</td>
+    </tr>
+    <tr>
+      <td>Great Smoky Mountains National Park</td>
+      <td>State Flower - Dogwood</td>
+      <td>Battle of Guilford Courthouse (1781)</td>
+    </tr>
+    <tr>
+      <td>Outer Banks</td>
+      <td>State Tree - Pine</td>
+      <td>Blackbeard's Death (1718)</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--Submit Form -->
+<section>
+  <h3 id="special-text">Contact Us</h3>
+  <form>
+    <div class="form-group">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+    </div>
+
+    <div class="form-group">
+      <label for="confirm-email">Confirm Email Address:</label>
+      <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm your email address" required>
+      <p id="email-match-message" class="error"></p>
+    </div>
+
+    <div class="form-group">
+      <label for="question">Question:</label>
+      <textarea id="question" name="question" rows="5" placeholder="Ask your question here" required></textarea>
+    </div>
+
+    
+  </form>
+</section>
+  
+</section>
+
+  <footer>
+    <p>&copy; 2023 Sadiq Harry. All rights reserved.</p>
+  </footer>
+</body>
+</html>
