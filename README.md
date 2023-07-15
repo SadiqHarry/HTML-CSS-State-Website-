@@ -60,5 +60,5 @@ Thank you for your interest in this North Carolina State Government Office Websi
 
 ## Link to Website
 
-You can access the website by clicking [here](northcarolina.lovestoblog.com/).
+You can access the website by clicking [here](http://northcarolina.lovestoblog.com/).
 
