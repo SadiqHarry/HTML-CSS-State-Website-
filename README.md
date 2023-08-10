@@ -2,12 +2,7 @@
 
 ![website](https://github.com/SadiqHarry/NC_State_website/assets/116308353/72311e83-2fda-4374-b243-3270b82e935b)
 
-
-## Introduction
-
-This is a personal project showcasing a website for the North Carolina State Government Office. The purpose of this project is to demonstrate my skills as a front-end web designer and developer. The website provides information about the state of North Carolina, with a focus on three cities: Cary, Raleigh, and Durham.
-
-## Functionality
+## Features
 
 The website consists of several web pages, each dedicated to different aspects of North Carolina and its cities. The main page serves as an introduction, providing an overview of the state and its unique features. Additionally, there are separate pages dedicated to the cities of Cary, Raleigh, and Durham. Each city page includes information such as population, year of incorporation, region, classification, and average income level.
 
