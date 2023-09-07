@@ -1,4 +1,4 @@
-# North Carolina State Visitation Static Website Template 
+# North Carolina State Tourism Website Template 
 
 ![website](https://github.com/SadiqHarry/NC_State_website/assets/116308353/72311e83-2fda-4374-b243-3270b82e935b)
 
