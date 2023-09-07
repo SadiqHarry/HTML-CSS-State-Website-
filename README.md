@@ -1,6 +1,10 @@
-# North Carolina State Government Office Website Template 
+# North Carolina State Visitation Static Website Template 
 
 ![website](https://github.com/SadiqHarry/NC_State_website/assets/116308353/72311e83-2fda-4374-b243-3270b82e935b)
+
+## Technologies Leveraged
+- HTML/CSS
+- VSCode
 
 ## Features
 
